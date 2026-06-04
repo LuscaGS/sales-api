@@ -1,0 +1,251 @@
+{
+  "info": {
+    "_postman_id": "885eea4b-f459-4883-a5e3-2eee09714d81",
+    "name": "sales-api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45338051",
+    "_collection_link": "https://go.postman.co/collection/45338051-885eea4b-f459-4883-a5e3-2eee09714d81?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:3000/reports/top-products",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/top-products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "top-products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/top-products?limit=3",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/top-products?limit=3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "top-products"
+          ],
+          "query": [
+            {
+              "key": "limit",
+              "value": "3",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/revenue-by-category",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/revenue-by-category",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "revenue-by-category"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/customers-ranking",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/customers-ranking",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "customers-ranking"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/customers-ranking?min_spent=500",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/customers-ranking?min_spent=500",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "customers-ranking"
+          ],
+          "query": [
+            {
+              "key": "min_spent",
+              "value": "500",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/monthly-revenue",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/monthly-revenue",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "monthly-revenue"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/monthly-revenue?from=2024-01-01&to=2024-06-30",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/monthly-revenue?from=2024-01-01&to=2024-06-30",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "monthly-revenue"
+          ],
+          "query": [
+            {
+              "key": "from",
+              "value": "2024-01-01",
+              "disabled": false
+            },
+            {
+              "key": "to",
+              "value": "2024-06-30",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/low-stock",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/low-stock",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "low-stock"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:3000/reports/low-stock?threshold=10",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/reports/low-stock?threshold=10",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "reports",
+            "low-stock"
+          ],
+          "query": [
+            {
+              "key": "threshold",
+              "value": "10",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
