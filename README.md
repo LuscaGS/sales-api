@@ -131,5 +131,3 @@ sales-api/
 ├── seed.sql                # Sample data
 ├── .env.example            # Environment variables reference
 └── package.json
-```
-```
